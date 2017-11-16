@@ -1,0 +1,11 @@
+﻿{
+   "target": {
+      "files": {
+         "js/OE4BN9.min.js": [
+            "js/OE4BN9.js",
+            "js/initialize-function.js",
+            "js/vocabularies.js"
+         ]
+      }
+   }
+}

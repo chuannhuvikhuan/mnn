@@ -1,0 +1,75 @@
+@import 'settings.less';
+
+@import 'fonts.less';
+@import 'material-color.less';
+
+.heading
+{
+    &-1
+    {
+        font-size: 1.25em;
+        font-weight: bold;
+
+        margin: @large-unit-size auto;
+
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: @clr-black;
+    }
+
+    &-2
+    {
+        font-size: 1.15em;
+        font-weight: bold;
+
+        margin-top: .25em;
+    }
+}
+
+.numbering
+{
+    &::after
+    {
+        content: '\0009';
+    }
+
+    &.square
+    {
+        font-size: .75em;
+        font-weight: bold;
+        line-height: 1.5em;
+
+        display: inline-block;
+
+        width: 1.5em;
+
+        text-align: center;
+
+        color: @clr-white;
+        border-radius: @unit-size;
+        background-color: @clr-black;
+    }
+}
+
+.segment
+{
+    //
+}
+
+.text
+{
+    &.bold
+    {
+        font-weight: bold;
+    }
+
+    &.highlight
+    {
+        color: @clr-blue;
+    }
+
+    &.blue
+    {
+        color: @clr-blue;
+    }
+}

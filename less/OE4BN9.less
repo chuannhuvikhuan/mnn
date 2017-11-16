@@ -1,0 +1,143 @@
+@import 'settings.less';
+
+@import 'fonts.less';
+@import 'material-color.less';
+
+.OE4BN9-chapter
+{
+    font-family: @default-font-family;
+    font-size: @default-font-size;
+    line-height: @default-line-height;
+
+    margin: @medium-unit-size auto;
+
+    @import 'vocabulary.less';
+    @import 'gammar.less';
+
+    .main-title
+    {
+        font-family: @main-title-font-family;
+        font-size: @main-title-font-size;
+        font-weight: bold;
+
+        padding: @medium-unit-size;
+
+        color: @clr-white;
+        border-radius: @unit-size;
+        background-color: @clr-black;
+    }
+}
+
+#info
+{
+    font-family: @default-font-family;
+    font-size: @default-font-size !important;
+    line-height: 1.25;
+
+    position: fixed;
+    z-index: 9999;
+
+    display: none;
+
+    max-width: 360px;
+
+    border: 1px solid fade(@clr-black, 20%);
+    border-radius: 2px;
+    background-color: @clr-white;
+    box-shadow: 0 2px 5px 0 fade(@clr-black,15%), 0 2px 10px 0 fade(@clr-black,12%);
+
+    &.show
+    {
+        display: block;
+    }
+
+    > .container
+    {
+        padding: 15px;
+    }
+
+    > .arrow
+    {
+        position: fixed;
+
+        width: 0;
+        height: 0;
+
+        border-top: @arrow-size solid fade(@clr-black, 20%);
+        border-right: @arrow-size solid transparent;
+        border-left: @arrow-size solid transparent;
+
+        @arrow-size: 10px;
+
+        > div
+        {
+            position: absolute;
+            top: -@arrow-size;
+            left: -@div-size;
+
+            width: 0;
+            height: 0;
+
+            border-top: @div-size solid @clr-white;
+            border-right: @div-size solid transparent;
+            border-left: @div-size solid transparent;
+
+            @div-size: @arrow-size * .9;
+        }
+    }
+
+    .content,
+    .kanji,
+    .kana,
+    .roumaji,
+    .vietnamese
+    {
+        &:empty
+        {
+            display: none;
+        }
+    }
+
+    .content
+    {
+        font-family: @default-font-family;
+        font-weight: bold;
+    }
+
+    .kana
+    {
+        font-family: @default-font-family;
+    }
+
+    .roumaji
+    {
+        font-style: italic;
+
+        color: @clr-red-900;
+    }
+
+    .vietnamese
+    {
+        color: @clr-green-900;
+
+        &:before
+        {
+            content: '「';
+        }
+
+        &:after
+        {
+            content: '」';
+        }
+    }
+
+    .mean
+    {
+        color: @clr-blue-900;
+
+        &:before
+        {
+            content: '◆ ';
+        }
+    }
+}

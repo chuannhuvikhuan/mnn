@@ -1,0 +1,13 @@
+{
+   "css": {
+      "files": [
+         {
+            "cwd": "css",
+            "dest": "css",
+            "expand": true,
+            "ext": ".min.css",
+            "src": [ "OE4BN9.css" ]
+         }
+      ]
+   }
+}

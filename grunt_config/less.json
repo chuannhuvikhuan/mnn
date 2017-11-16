@@ -1,0 +1,10 @@
+﻿{
+   "options": {
+   },
+
+   "target": {
+      "files": {
+         "css/OE4BN9.css": "less/OE4BN9.less"
+      }
+   }
+}

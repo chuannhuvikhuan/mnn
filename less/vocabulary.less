@@ -1,0 +1,126 @@
+@import 'settings.less';
+
+@import 'fonts.less';
+@import 'material-color.less';
+
+.vocabulary
+{
+    line-height: 1.25;
+
+    display: inline-table;
+
+    text-align: center;
+
+    &:hover
+    {
+        cursor: pointer;
+    }
+
+    .content
+    {
+        display: table-row-group;
+    }
+
+    rt
+    {
+        font-size: 65%;
+    }
+
+    .roumaji
+    {
+        font-size: 70%;
+        font-style: italic;
+
+        display: table-footer-group;
+
+        text-align: center;
+    }
+}
+
+.vocabulary-wrapper
+{
+    margin: @medium-unit-size auto;
+    padding: @medium-unit-size;
+
+    border: solid @unit-size @clr-black;
+    border-radius: @unit-size;
+    background: @clr-white;
+
+    > .index,
+    > .kanji,
+    > .kana,
+    > .roumaji,
+    > .vietnamese
+    {
+        &:empty
+        {
+            display: none;
+        }
+    }
+
+    > .index
+    {
+        font-size: .75em;
+        font-weight: bold;
+        line-height: 1.5em;
+
+        width: 1.5em;
+        margin-bottom: .25em;
+
+        text-align: center;
+
+        color: @clr-white;
+        border-radius: @unit-size;
+        background-color: @clr-black;
+    }
+
+    > .key
+    {
+        font-weight: bold;
+    }
+
+    > .kana
+    {
+        //
+    }
+
+    > .roumaji
+    {
+        font-style: italic;
+
+        color: @clr-red-900;
+    }
+
+    > .vietnamese
+    {
+        color: @clr-green-900;
+
+        &:before
+        {
+            content: '「';
+        }
+
+        &:after
+        {
+            content: '」';
+        }
+    }
+
+    > .mean
+    {
+        color: @clr-blue-900;
+
+        &:before
+        {
+            content: '◆ ';
+        }
+    }
+}
+
+#unknown-vocabularies
+{
+    &:empty
+    {
+        display: none;
+    }
+}
