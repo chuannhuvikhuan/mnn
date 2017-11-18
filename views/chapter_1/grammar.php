@@ -17,7 +17,7 @@
       <div class="heading-2">
          <span class="numbering">1)</span>
          Trợ từ
-         <?php v('は2', true); ?>
+         <?php vh('は2', true); ?>
       </div>
 
       <div class="content">
@@ -47,7 +47,7 @@
    <div class="segment">
       <div class="heading-2">
          <span class="numbering">2)</span>
-         <?php v('です'); ?>
+         <?php vh('です'); ?>
       </div>
 
       <div class="content">
@@ -108,7 +108,7 @@
    <div class="segment">
       <div class="heading-2">
          <span class="numbering">1)</span>
-         Trợ từ <?php v('か', true); ?>
+         Trợ từ <?php vh('か', true); ?>
       </div>
 
       <div class="content">
@@ -209,7 +209,7 @@
    <div class="segment">
       <div class="heading-2">
          <span class="numbering">4.</span>
-         Danh từ &#x0020;<?php v('も'); ?>
+         Danh từ &#x0020;<?php vh('も'); ?>
       </div>
 
       <div class="content">
@@ -237,7 +237,7 @@
       <div class="heading-2">
          <span class="numbering">5.</span>
          Danh từ<sub>1</sub>&#x0020;
-         <?php v('の'); ?>&#x0020;
+         <?php vh('の'); ?>&#x0020;
          Danh từ<sub>2</sub>
       </div>
 
@@ -264,7 +264,7 @@
    <div class="segment">
       <div class="heading-2">
          <span class="numbering">6.</span>
-         <?php v('～さん'); ?>
+         <?php vh('～さん'); ?>
       </div>
 
       <div class="content">

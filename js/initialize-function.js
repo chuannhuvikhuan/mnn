@@ -379,7 +379,10 @@ OE4BN9.initialize = function () {
          mean = '';
 
       if (vocabulary.hasOwnProperty(vocabularyProperties.content)) {
-         content = vocabulary.content.replace('.', '');
+         var
+            regExp = new RegExp('\\.', 'g');
+
+         content = vocabulary.content.replace(regExp, '');
       }
 
       if (vocabulary.hasOwnProperty(vocabularyProperties.kana)) {
@@ -462,9 +465,10 @@ OE4BN9.initialize = function () {
          }
 
          var
-            output = '';
+            output = '',
+            regExp = new RegExp('\\.', 'g');
 
-         output += vocabulary.content.replace('.', '');
+         output += vocabulary.content.replace(regExp, '');
 
          if (vocabulary.hasOwnProperty(vocabularyProperties.kana)) {
             output += '\r\n' + vocabulary.kana;

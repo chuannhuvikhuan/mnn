@@ -2289,11 +2289,13 @@ OE4BN9.vocabularies = {
     "vietnamese": "THỤ PHỤ",
     "mean": "Bộ phận tiếp tân, phòng thường \ntrực"
   },
-  "トイレ": {
-    "key": "トイレ",
-    "content": "トイレ",
-    "kana": "トイレ",
-    "roumaji": "toire",
+  "トイレ（お手洗い）": {
+    "key": "トイレ（お手洗い）",
+    "content": "トイレ（お.手洗.い）",
+    "furigana": "トイレ（お.てあら.い）",
+    "kana": "トイレ（おてあらい）",
+    "roumaji": "toire (o tearai)",
+    "vietnamese": "THỦ TẨY",
     "mean": "Nhà vệ sinh, phòng vệ sinh, toa-lét"
   },
   "部屋": {
@@ -2305,11 +2307,11 @@ OE4BN9.vocabularies = {
     "vietnamese": "BỘ ỐC",
     "mean": "Căn phòng"
   },
-  "エルペーター": {
-    "key": "エルペーター",
-    "content": "エルペーター",
-    "kana": "エルペーター",
-    "roumaji": "erupētā",
+  "エレベーター": {
+    "key": "エレベーター",
+    "content": "エレベーター",
+    "kana": "エレベーター",
+    "roumaji": "erebētā",
     "mean": "Thang máy"
   },
   "エスカレーター": {
@@ -2521,5 +2523,62 @@ OE4BN9.vocabularies = {
     "kana": "ロビー",
     "roumaji": "robī",
     "mean": "Hành lang, đại sảnh"
+  },
+  "お手洗い": {
+    "key": "お手洗い",
+    "refKey": "トイレ（お手洗い）",
+    "content": "お.手洗.い",
+    "furigana": "お.てあら.い",
+    "kana": "おてあらい",
+    "roumaji": "o tearai"
+  },
+  "階": {
+    "key": "階",
+    "refKey": "—階",
+    "content": "階",
+    "furigana": "かい",
+    "kana": "かい"
+  },
+  "山田": {
+    "key": "山田",
+    "content": "山田",
+    "furigana": "やまだ",
+    "kana": "やまだ",
+    "roumaji": "yamada",
+    "mean": "Yamada"
+  },
+  "なん": {
+    "key": "なん",
+    "content": "なん",
+    "kana": "なん",
+    "roumaji": "nan",
+    "mean": "Gì"
+  },
+  "学校": {
+    "key": "学校",
+    "content": "学校",
+    "furigana": "がっこう",
+    "kana": "がっこう",
+    "vietnamese": "HỌC GIÁO",
+    "mean": "Trường học"
+  },
+  "どれ": {
+    "key": "どれ",
+    "content": "どれ",
+    "kana": "どれ",
+    "roumaji": "dore"
+  },
+  "どの": {
+    "key": "どの",
+    "content": "どの",
+    "kana": "どの",
+    "roumaji": "dono"
+  },
+  "お国": {
+    "key": "お国",
+    "content": "お.国",
+    "furigana": "お.くに",
+    "kana": "おくに",
+    "roumaji": "o kuni"
   }
 };
