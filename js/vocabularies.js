@@ -2144,6 +2144,7 @@ OE4BN9.vocabularies = {
   },
   "ください": {
     "key": "ください",
+    "refKey": "「～を」ください",
     "content": "ください",
     "kana": "ください",
     "roumaji": "kudasai"
@@ -2405,8 +2406,8 @@ OE4BN9.vocabularies = {
   },
   "—階": {
     "key": "—階",
-    "content": "—階",
-    "furigana": "—かい(がい)",
+    "content": "—.階",
+    "furigana": "—.かい(がい)",
     "kana": "—かい(がい)",
     "roumaji": "—kai(gai)",
     "vietnamese": "GIAI",
@@ -2423,8 +2424,8 @@ OE4BN9.vocabularies = {
   },
   "—円": {
     "key": "—円",
-    "content": "—円",
-    "furigana": "—えん",
+    "content": "—.円",
+    "furigana": "—.えん",
     "kana": "—えん",
     "roumaji": "—en",
     "vietnamese": "VIÊN",
@@ -2580,5 +2581,475 @@ OE4BN9.vocabularies = {
     "furigana": "お.くに",
     "kana": "おくに",
     "roumaji": "o kuni"
+  },
+  "起きます": {
+    "key": "起きます",
+    "content": "起.きます",
+    "furigana": "お.きます",
+    "kana": "おきます",
+    "roumaji": "okimasu",
+    "vietnamese": "KHỞI",
+    "mean": "Dậy, thức dậy"
+  },
+  "寝ます": {
+    "key": "寝ます",
+    "content": "寝.ます",
+    "furigana": "ね.ます",
+    "kana": "ねます",
+    "roumaji": "nemasu",
+    "vietnamese": "TẨM",
+    "mean": "Ngủ, đi ngủ"
+  },
+  "働きます": {
+    "key": "働きます",
+    "content": "働.きます",
+    "furigana": "はたら.きます",
+    "kana": "はたらきます",
+    "roumaji": "hataraki masu",
+    "vietnamese": "ĐỘNG",
+    "mean": "Làm việc"
+  },
+  "休みます": {
+    "key": "休みます",
+    "content": "休.みます",
+    "furigana": "やす.みます",
+    "kana": "やすみます",
+    "roumaji": "yasumi masu",
+    "vietnamese": "HƯU",
+    "mean": "Nghỉ, nghỉ ngơi"
+  },
+  "勉強します": {
+    "key": "勉強します",
+    "content": "勉強.します",
+    "furigana": "べんきょう.します",
+    "kana": "べんきょうします",
+    "roumaji": "benkyou shi masu",
+    "vietnamese": "MIỄN CƯỜNG",
+    "mean": "Học"
+  },
+  "終わります": {
+    "key": "終わります",
+    "content": "終.わります",
+    "furigana": "お.わります",
+    "kana": "おわります",
+    "roumaji": "owari masu",
+    "vietnamese": "CHUNG",
+    "mean": "Hết, kết thúc, xong"
+  },
+  "デパート": {
+    "key": "デパート",
+    "content": "デパート",
+    "kana": "デパート",
+    "roumaji": "depāto",
+    "mean": "Bách hóa"
+  },
+  "銀行": {
+    "key": "銀行",
+    "content": "銀行",
+    "furigana": "ぎんこう",
+    "kana": "ぎんこう",
+    "roumaji": "ginkou",
+    "vietnamese": "NGÂN HÀNG",
+    "mean": "Ngân hàng"
+  },
+  "郵便局": {
+    "key": "郵便局",
+    "content": "郵便局",
+    "furigana": "ゆうびんきょく",
+    "kana": "ゆうびんきょく",
+    "roumaji": "yuubin kyoku",
+    "vietnamese": "BƯU TIỆN CỤC",
+    "mean": "Bưu điện"
+  },
+  "図書館": {
+    "key": "図書館",
+    "content": "図書館",
+    "furigana": "としょかん",
+    "kana": "としょかん",
+    "roumaji": "toshokan",
+    "vietnamese": "ĐỒ THƯ QUÁN",
+    "mean": "Thư viện"
+  },
+  "美術館": {
+    "key": "美術館",
+    "content": "美術館",
+    "furigana": "びじゅつかん",
+    "kana": "びじゅつかん",
+    "roumaji": "bijutsukan",
+    "vietnamese": "MĨ THUẬT QUÁN",
+    "mean": "Bảo tàng mỹ thuật"
+  },
+  "今": {
+    "key": "今",
+    "content": "今",
+    "furigana": "いま",
+    "kana": "いま",
+    "roumaji": "ima",
+    "vietnamese": "KIM",
+    "mean": "Bây giờ"
+  },
+  "—時": {
+    "key": "—時",
+    "content": "—.時",
+    "furigana": "—.じ",
+    "kana": "—じ",
+    "roumaji": "— ji",
+    "vietnamese": "THỜI",
+    "mean": "— giờ"
+  },
+  "—分": {
+    "key": "—分",
+    "content": "—.分",
+    "furigana": "—.ふん",
+    "kana": "—ふん",
+    "roumaji": "— bun",
+    "vietnamese": "PHÂN",
+    "mean": "— phút"
+  },
+  "半": {
+    "key": "半",
+    "content": "半",
+    "furigana": "はん",
+    "kana": "はん",
+    "roumaji": "han",
+    "vietnamese": "BÁN",
+    "mean": "Rưỡi, nửa"
+  },
+  "何時": {
+    "key": "何時",
+    "content": "何時",
+    "furigana": "なんじ",
+    "kana": "なんじ",
+    "roumaji": "itsu",
+    "vietnamese": "HÀ THỜI",
+    "mean": "Mấy giờ"
+  },
+  "何分": {
+    "key": "何分",
+    "content": "何分",
+    "furigana": "なんふん",
+    "kana": "なんふん",
+    "roumaji": "nanbun",
+    "vietnamese": "HÀ PHÂN",
+    "mean": "Mấy phút"
+  },
+  "午前": {
+    "key": "午前",
+    "content": "午前",
+    "furigana": "ごぜん",
+    "kana": "ごぜん",
+    "roumaji": "gozen",
+    "vietnamese": "NGỌ TIỀN",
+    "mean": "Trước mười hai giờ trưa, sáng"
+  },
+  "午後": {
+    "key": "午後",
+    "content": "午後",
+    "furigana": "ごご",
+    "kana": "ごご",
+    "roumaji": "gogo",
+    "vietnamese": "NGỌ HẬU",
+    "mean": "Sau mười hai giờ trưa, chiều"
+  },
+  "朝": {
+    "key": "朝",
+    "content": "朝",
+    "furigana": "あさ",
+    "kana": "あさ",
+    "roumaji": "asa",
+    "vietnamese": "TRIỀU",
+    "mean": "Buổi sáng, sáng"
+  },
+  "昼": {
+    "key": "昼",
+    "content": "昼",
+    "furigana": "ひる",
+    "kana": "ひる",
+    "roumaji": "hiru",
+    "vietnamese": "TRÚ",
+    "mean": "Buổi trưa, trưa"
+  },
+  "晩": {
+    "key": "晩",
+    "content": "晩.（.夜.）",
+    "furigana": "ばん.（.よる.）",
+    "kana": "ばん（よる）",
+    "roumaji": "ban (yoru)",
+    "vietnamese": "VÃN",
+    "mean": "Buổi tối, tối"
+  },
+  "一昨日": {
+    "key": "一昨日",
+    "content": "一昨日",
+    "furigana": "おととい",
+    "kana": "おととい",
+    "roumaji": "ototoi",
+    "vietnamese": "NHẤT TẠC NHẬT",
+    "mean": "Hôm kia"
+  },
+  "昨日": {
+    "key": "昨日",
+    "content": "昨日",
+    "furigana": "きのう",
+    "kana": "きのう",
+    "roumaji": "kinou",
+    "vietnamese": "TẠC NHẬT",
+    "mean": "Hôm qua"
+  },
+  "今日": {
+    "key": "今日",
+    "content": "今日",
+    "furigana": "きょう",
+    "kana": "きょう",
+    "roumaji": "kyou",
+    "vietnamese": "KIM NHẬT",
+    "mean": "Hôm nay"
+  },
+  "明日": {
+    "key": "明日",
+    "content": "明日",
+    "furigana": "あした",
+    "kana": "あした",
+    "roumaji": "ashita",
+    "vietnamese": "MINH NHẬT",
+    "mean": "Ngày mai"
+  },
+  "明後日": {
+    "key": "明後日",
+    "content": "明後日",
+    "furigana": "あさって",
+    "kana": "あさって",
+    "roumaji": "asatte",
+    "vietnamese": "MINH HẬU NHẬT",
+    "mean": "Ngày kia"
+  },
+  "今朝": {
+    "key": "今朝",
+    "content": "今朝",
+    "furigana": "けさ",
+    "kana": "けさ",
+    "roumaji": "kesa",
+    "vietnamese": "KIM TRIỀU",
+    "mean": "Sáng nay"
+  },
+  "今晩": {
+    "key": "今晩",
+    "content": "今晩",
+    "furigana": "こんばん",
+    "kana": "こんばん",
+    "roumaji": "konban",
+    "vietnamese": "KIM VÃN",
+    "mean": "Tối nay"
+  },
+  "休み": {
+    "key": "休み",
+    "content": "休.み",
+    "furigana": "やす.み",
+    "kana": "やすみ",
+    "roumaji": "yasumi",
+    "vietnamese": "HƯU",
+    "mean": "Nghỉ, nghỉ phép, ngày nghỉ"
+  },
+  "昼休み": {
+    "key": "昼休み",
+    "content": "昼休.み",
+    "furigana": "ひるやす.み",
+    "kana": "ひるやすみ",
+    "roumaji": "hiruyasumi",
+    "vietnamese": "TRÚ HƯU",
+    "mean": "Nghỉ trưa"
+  },
+  "毎朝": {
+    "key": "毎朝",
+    "content": "毎朝",
+    "furigana": "まいあさ",
+    "kana": "まいあさ",
+    "roumaji": "maiasa",
+    "vietnamese": "MỖI TRIỀU",
+    "mean": "Hàng sáng, mỗi sáng"
+  },
+  "毎晩": {
+    "key": "毎晩",
+    "content": "毎晩",
+    "furigana": "まいばん",
+    "kana": "まいばん",
+    "roumaji": "maiban",
+    "vietnamese": "MỖI VÃN",
+    "mean": "Hàng tối, mỗi tối"
+  },
+  "毎日": {
+    "key": "毎日",
+    "content": "毎日",
+    "furigana": "まいにち",
+    "kana": "まいにち",
+    "roumaji": "mainichi",
+    "vietnamese": "MỖI NHẬT",
+    "mean": "Hàng ngày, mỗi ngày"
+  },
+  "月曜日": {
+    "key": "月曜日",
+    "content": "月曜日",
+    "furigana": "げつようび",
+    "kana": "げつようび",
+    "roumaji": "getsuyoubi",
+    "vietnamese": "NGUYỆT DIỆU NHẬT",
+    "mean": "Thứ hai"
+  },
+  "火曜日": {
+    "key": "火曜日",
+    "content": "火曜日",
+    "furigana": "かようび",
+    "kana": "かようび",
+    "roumaji": "kayoubi",
+    "vietnamese": "HỎA DIỆU NHẬT",
+    "mean": "Thứ ba"
+  },
+  "水曜日": {
+    "key": "水曜日",
+    "content": "水曜日",
+    "furigana": "すいようび",
+    "kana": "すいようび",
+    "roumaji": "suiyoubi",
+    "vietnamese": "THỦY DIỆU NHẬT",
+    "mean": "Thứ tư"
+  },
+  "木曜日": {
+    "key": "木曜日",
+    "content": "木曜日",
+    "furigana": "もくようび",
+    "kana": "もくようび",
+    "roumaji": "mokuyoubi",
+    "vietnamese": "MỘC DIỆU NHẬT",
+    "mean": "Thứ năm"
+  },
+  "金曜日": {
+    "key": "金曜日",
+    "content": "金曜日",
+    "furigana": "きんようび",
+    "kana": "きんようび",
+    "roumaji": "kinyoubi",
+    "vietnamese": "KIM DIỆU NHẬT",
+    "mean": "Thứ sáu"
+  },
+  "土曜日": {
+    "key": "土曜日",
+    "content": "土曜日",
+    "furigana": "どようび",
+    "kana": "どようび",
+    "roumaji": "doyoubi",
+    "vietnamese": "THỔ DIỆU NHẬT",
+    "mean": "Thứ bảy"
+  },
+  "日曜日": {
+    "key": "日曜日",
+    "content": "日曜日",
+    "furigana": "にちようび",
+    "kana": "にちようび",
+    "roumaji": "nichiyoubi",
+    "vietnamese": "NHẬT DIỆU NHẬT",
+    "mean": "Chủ Nhật"
+  },
+  "何曜日": {
+    "key": "何曜日",
+    "content": "何曜日",
+    "furigana": "なんようび",
+    "kana": "なんようび",
+    "roumaji": "nanyoubi",
+    "vietnamese": "HÀ DIỆU NHẬT",
+    "mean": "Thứ mấy"
+  },
+  "番号": {
+    "key": "番号",
+    "content": "番号",
+    "furigana": "ばんごう",
+    "kana": "ばんごう",
+    "roumaji": "bangou",
+    "vietnamese": "PHIÊN HIỆU",
+    "mean": "Số (số điện thoại, số phòng)"
+  },
+  "何番": {
+    "key": "何番",
+    "content": "何番",
+    "furigana": "なんばん",
+    "kana": "なんばん",
+    "roumaji": "nanban",
+    "vietnamese": "HÀ PHIÊN",
+    "mean": "Số bao nhiêu, số mấy"
+  },
+  "～から": {
+    "key": "～から",
+    "content": "～から",
+    "kana": "～から",
+    "roumaji": "~kara",
+    "mean": "~ từ"
+  },
+  "～まで": {
+    "key": "～まで",
+    "content": "～まで",
+    "kana": "～まで",
+    "roumaji": "~made",
+    "mean": "~ đến"
+  },
+  "～と～": {
+    "key": "～と～",
+    "content": "～と～",
+    "kana": "～と～",
+    "roumaji": "~to~",
+    "mean": "~ và (dùng để nối hai danh từ)"
+  },
+  "そちら2": {
+    "key": "そちら2",
+    "content": "そちら",
+    "kana": "そちら",
+    "roumaji": "sochira",
+    "mean": "Ông/bà, phía ông/phía bà"
+  },
+  "大変ですね。": {
+    "key": "大変ですね。",
+    "content": "大変.ですね。",
+    "furigana": "たいへん.ですね。",
+    "kana": "たいへんですね。",
+    "roumaji": "taihen desu ne.",
+    "vietnamese": "ĐẠI BIẾN",
+    "mean": "Anh/chị vất vả quá. (dùng để bày tỏ sự thông cảm)"
+  },
+  "えーと": {
+    "key": "えーと",
+    "content": "えーと",
+    "kana": "えーと",
+    "roumaji": "ēto",
+    "mean": "Ừ, à (từ đệm trong hội thoại khi đang nghĩ điều muốn nói)"
+  },
+  "お願いします。": {
+    "key": "お願いします。",
+    "content": "お.願.いします。",
+    "furigana": "お.ねが.いします。",
+    "kana": "おねがいします。",
+    "roumaji": "onegai shi masu.",
+    "vietnamese": "NGUYỆN",
+    "mean": "Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ."
+  },
+  "かしこまりました。": {
+    "key": "かしこまりました。",
+    "content": "かしこまりました。",
+    "kana": "かしこまりました。",
+    "roumaji": "kashikomari mashi ta.",
+    "mean": "Tôi hiểu rồi ạ./Vâng, được rồi ạ."
+  },
+  "お問い尾鷲の番号": {
+    "key": "お問い尾鷲の番号",
+    "content": "お.問.い.尾鷲.の.番号",
+    "furigana": "お.と.い.あわせ.の.ばんごう",
+    "kana": "おといあわせのばんごう",
+    "roumaji": "o toi owase no bangou",
+    "vietnamese": "VẤN VĨ PHIÊN HIỆU",
+    "mean": "Số điện thoại mà ông/bà muốn hỏi"
+  },
+  "「どうも」ありがとうございました": {
+    "key": "「どうも」ありがとうございました",
+    "content": "「どうも」ありがとうございました",
+    "kana": "「どうも」ありがとうございました",
+    "roumaji": "[doumo] arigatou gozai mashi ta",
+    "mean": "Xin cám ơn ông/bà"
   }
 };
